@@ -5,67 +5,186 @@
     <title>Ayden's Webpage</title>
 </head>
 <body>
-<section>
+<main>
     <header>
-        <h1>Hello!</h1>
+        <h1>Hello! My name is Ayden Chance!</h1>
         <h2>This is my personal webpage (WIP)</h2>
-    </header>
     <p>
         This page is served by AWS from within an S3 bucket.
         The domain is hosted by AWS who also serves as the registrar.
         This page was created just to demo S3's static site hosting capabilities;
         however, I intend to turn it into a fully fledged personal webpage.
         As you can see, it is quite basic for now, but I will be building it out
-        in the coming months.
+        in the coming months. For now it basically serves as my resume but with more detail.
     </p>
     <p>
-        Right now it uses nothing but HTML (and one inline CSS attribute :P).
+        Right now it uses nothing but plain HTML :)
     </p>
-</section>
-<section>
-    <header>
-        <h2>About Me</h2>
+    <nav>
+        <h2>Table of Contents</h2>
+        <ol>
+            <li>
+                <a href="#about-me-header">About Me</a>
+            </li>
+            <li>
+                <a href="#skills-header">Skills</a>
+            </li>
+            <li>
+                <a href="#education-header">Education</a>
+            </li>
+            <li>
+                <a href="#work-header">Work</a>
+            </li>
+            <li>
+                <a href="#projects-header">Projects</a>
+            </li>
+            <li>
+                <a href="#resume-header">Resume</a>
+            </li>
+            <li>
+                <a href="#contact-info-header">Contact Info</a>
+            </li>
+        </ol>
+    </nav>
     </header>
     <section>
-        <h3>Interests:</h3>
+        <header>
+            <h2 id="about-me-header">About Me</h2>
+        </header>
+        <section>
+            <p>
+                I'm a senior Computer Science student at Rowan University,
+                expected to graduate with a Bachelors of Science in May 2025.
+            </p>
+            <p>
+                I am currently seeking a career in Software Engineering.
+                On the surface, I'm interested in SWE roles because I like writing code and I like solving problems
+                &#8212 but really,
+                these are a means to an end. The solution to a useless problem is still useless,
+                no matter how interesting the problem was to solve.
+                What I'm really after is making people's lives easier.
+            </p>
+            <p>
+                As a developer, I focus on creating useful features to make users' lives easier as well as
+                maintainable code to make future maintainers' (who may or may not be myself) lives easier.
+                I am currently an intern at Subaru of America, who has given me ample opportunity to contribute to their
+                technologies. Some of my recent projects there include the migration of a large legacy monolith into
+                modern technologies,
+                a custom analytics solution for a WatchOS app,
+                and a green-field service to serve as a model for cloud-ready, secure, and scalable architecture.
+            </p>
+            <p>
+                I am <strong> currently seeking full-time opportunities in Software Engineering and related roles to be started
+                when I graduate </strong>. If you think I would be a good fit for a position,
+                please contact me at my email listed at the bottom of this page. I look forward to connecting with you.
+            </p>
+        </section>
+    </section>
+    <section>
+        <header>
+            <h2 id="skills-header">Skills</h2>
+        </header>
+        <section>
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Swift</li>
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Rust</li>
+                <li>x86-64 Assembly</li>
+                <li>Scheme</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Additional Skills / Familiarities</h3>
+            <ul>
+                <li>AWS (Expected Solutions Architect Associate Certification November 2, 2024)</li>
+                <li>RDBMS (MySQL, Oracle), SQL</li>
+                <li>Agile (Scrum)</li>
+                <li>Unix/Linux</li>
+                <li>Spring</li>
+                <li>Spring Boot</li>
+                <li>React</li>
+                <li>Jakarta EE</li>
+                <li>WatchOS</li>
+                <li>Android</li>
+                <li>Version Control (Git, SVN)</li>
+                <li>Maven</li>
+                <li>Gradle</li>
+                <li>Jira</li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <header>
+            <h2 id="education-header">Education</h2>
+        </header>
+        <section>
+            <h3>Educational History</h3>
+            <ul>
+                <li><b>Rowan University | B.S. in Computer Science | Expected May 2025 | GPA: 4</b></li>
+            </ul>
+            <ul>
+                <li>Johns Hopkins University | 2018-2020 (transferred to Rowan in 2023) | GPA: 3.78</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Relevant Courses</h3>
+            <ul>
+                <li>Data Structures (Java)</li>
+                <li>Software Engineering (Rust / C)</li>
+                <li>Database Systems (MySQL, MongoDB, Neo4j)</li>
+                <li>Intermediate Programming (C / C++)</li>
+                <li>Object-Oriented Programming (Java)</li>
+                <li>Programming Languages (Scheme, Prolog)</li>
+                <li>Operating Systems</li>
+                <li>Computer System Fundamentals (x86-64 assembly / C)</li>
+                <li>User Interfaces & Mobile Applications (Java / Android)</li>
+                <li>Design & Analysis of Algorithms</li>
+                <li>Linear Algebra</li>
+                <li>Discrete Math</li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <header>
+            <h2 id="work-header">Work</h2>
+        </header>
         <ul>
-            <li>
-                <p>Coffee</p>
-                <img alt="Coffee" src="coffee.jpg" style="height: 20vh"/>
-            </li>
-            <li>
-                <p>Other stuff</p>
-            </li>
+            <li><b>Subaru of America </b> &#8212 I.T. Intern - Telematics | <i>May 2024 - May 2025</i></li>
+            <li><b>Rowan University</b> &#8212 Learning Assistant | <i>Jan 2024 - May 2024</i></li>
+            <li><b>Rodes' Fireside Inn</b> &#8212 Busser / Dishwasher | <i>June 2023 - Oct 2023</i></li>
+            <li><b>Johns Hopkins University</b> &#8212 PILOT Program Tutor | <i>Sep 2019 - May 2020</i></li>
+            <li><b>Johns Hopkins University</b> &#8212 Course Assistant | <i>Sep 2019 - May 2020</i></li>
         </ul>
     </section>
-    <p>WIP</p>
-</section>
-<section>
-    <header>
-        <h2>Skills</h2>
-        <p>WIP</p>
-    </header>
-</section>
-<section>
-    <header>
-        <h2>Work</h2>
-        <p>WIP</p>
-    </header>
-</section>
-<section>
-    <header>
-        <h2>Projects</h2>
-        <p>WIP</p>
-    </header>
-</section>
-<section>
-    <header>
-        <h2>Resume</h2>
+    <section>
+        <header>
+            <h2 id="projects-header">Projects</h2>
+        </header>
+        <ul>
+            <li><a href="https://github.com/achance6/C-Library-Rust-Wrapper">Rust FFI Wrapper (WIP)</a></li>
+            <li><a href="https://github.com/achance6/HangMan">CLI Hangman</a></li>
+            <li><a href="https://github.com/achance6/ProjectEulerJava">Project Euler</a></li>
+            <li><a href="https://github.com/achance6/cache-simulator">CLI Cache Simulator</a></li>
+            <li><a href="https://github.com/achance6/Tone-Generator">Tone Generator</a></li>
+            <li><a href="https://github.com/achance6/achance6.github.io">Reddit Scraper</a></li>
+            <li><a href="https://github.com/achance6/AirplaneLocator">Plane Locator</a></li>
+        </ul>
+    </section>
+    <section>
+        <header>
+            <h2 id="resume-header">Resume</h2>
+        </header>
         <a href="resume.pdf" target="_blank">I am here! Click me!</a>
-    </header>
-</section>
+    </section>
+</main>
 <footer>
-    <h2>Contact Info</h2>
+    <h2 id="contact-info-header">Contact Info</h2>
     <ul>
         <li>
             <p>Name: Ayden Chance</p>
@@ -79,7 +198,12 @@
         <li>
             <p>
                 Github:
-                <a href="https://github.com/achance6">https://github.com/achance6</a>
+                <a href="https://github.com/achance6">github.com/achance6</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                LinkedIn: <a href="https://www.linkedin.com/in/ayden-chance-dev">linkedin.com/in/ayden-chance-dev</a>
             </p>
         </li>
     </ul>
