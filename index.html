@@ -3,53 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Ayden's Webpage</title>
+    <link rel="stylesheet" href="assets/styles.css"/>
 </head>
 <body>
 <main>
+    <nav class="page-navigation">
+        <a id="about-me-nav" href="#about-me-section-header">About Me</a>
+        <a id="skills-nav" href="#skills-section-header">Skills</a>
+        <a id="education-nav" href="#education-section-header">Education</a>
+        <a id="work-nav" href="#work-section-header">Work</a>
+        <a id="projects-nav" href="#projects-section-header">Projects</a>
+        <a id="resume-nav" href="#resume-section-header">Resume</a>
+        <a id="contact-nav" href="#contact-info-section-header">Contact</a>
+    </nav>
     <header>
         <h1>Hello! My name is Ayden Chance!</h1>
         <h2>This is my personal webpage (WIP)</h2>
-    <p>
-        This page is served by AWS from within an S3 bucket.
-        The domain is hosted by AWS who also serves as the registrar.
-        This page was created just to demo S3's static site hosting capabilities;
-        however, I intend to turn it into a fully fledged personal webpage.
-        As you can see, it is quite basic for now, but I will be building it out
-        in the coming months. For now it basically serves as my resume but with more detail.
-    </p>
-    <p>
-        Right now it uses nothing but plain HTML :)
-    </p>
-    <nav>
-        <h2>Table of Contents</h2>
-        <ol>
-            <li>
-                <a href="#about-me-header">About Me</a>
-            </li>
-            <li>
-                <a href="#skills-header">Skills</a>
-            </li>
-            <li>
-                <a href="#education-header">Education</a>
-            </li>
-            <li>
-                <a href="#work-header">Work</a>
-            </li>
-            <li>
-                <a href="#projects-header">Projects</a>
-            </li>
-            <li>
-                <a href="#resume-header">Resume</a>
-            </li>
-            <li>
-                <a href="#contact-info-header">Contact Info</a>
-            </li>
-        </ol>
-    </nav>
+        <p>
+            This page is served by AWS from within an S3 bucket.
+            The domain is hosted by AWS who also serves as the registrar.
+            This page was created just to demo S3's static site hosting capabilities;
+            however, I intend to turn it into a fully fledged personal webpage.
+            As you can see, it is quite basic for now, but I will be building it out
+            in the coming months. For now it basically serves as my resume but with more detail.
+        </p>
+        <p>
+            This site at present uses nothing but plain HTML and CSS :)
+        </p>
     </header>
     <section>
         <header>
-            <h2 id="about-me-header">About Me</h2>
+            <h2 id="about-me-section-header">
+                About Me
+                <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+            </h2>
         </header>
         <section>
             <p>
@@ -82,7 +69,10 @@
     </section>
     <section>
         <header>
-            <h2 id="skills-header">Skills</h2>
+            <h2 id="skills-section-header">
+                Skills
+                <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+            </h2>
         </header>
         <section>
             <h3>Programming Languages</h3>
@@ -121,7 +111,10 @@
     </section>
     <section>
         <header>
-            <h2 id="education-header">Education</h2>
+            <h2 id="education-section-header">
+                Education
+                <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+            </h2>
         </header>
         <section>
             <h3>Educational History</h3>
@@ -152,7 +145,10 @@
     </section>
     <section>
         <header>
-            <h2 id="work-header">Work</h2>
+            <h2 id="work-section-header">
+                Work
+                <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+            </h2>
         </header>
         <ul>
             <li><b>Subaru of America </b> &#8212 I.T. Intern - Telematics | <i>May 2024 - May 2025</i></li>
@@ -164,7 +160,10 @@
     </section>
     <section>
         <header>
-            <h2 id="projects-header">Projects</h2>
+            <h2 id="projects-section-header">
+                Projects
+                <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+            </h2>
         </header>
         <ul>
             <li><a href="https://github.com/achance6/C-Library-Rust-Wrapper" target="_blank">Rust FFI Wrapper (WIP)</a></li>
@@ -178,13 +177,19 @@
     </section>
     <section>
         <header>
-            <h2 id="resume-header">Resume</h2>
+            <h2 id="resume-section-header">
+                Resume
+                <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+            </h2>
         </header>
         <a href="resume.pdf" target="_blank">I am here! Click me!</a>
     </section>
 </main>
 <footer>
-    <h2 id="contact-info-header">Contact Info</h2>
+    <h2 id="contact-info-section-header">
+        Contact Info
+        <a href="#about-me-nav"><img src="assets/back-to-top.svg" class="back-to-top-button" alt="back-to-top"/></a>
+    </h2>
     <ul>
         <li>
             <p>Name: Ayden Chance</p>
