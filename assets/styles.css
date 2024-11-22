@@ -18,6 +18,14 @@
     background-color: #c41212;
 }
 
+.skills-container {
+    display: flex;
+}
+
+.skills-container > * {
+    width: 50%;
+}
+
 .back-to-top-button {
     width: 16px;
     height: 16px;
