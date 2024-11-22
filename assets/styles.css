@@ -23,7 +23,7 @@
 }
 
 .skills-container > * {
-    width: 50%;
+    flex: 1 1 auto;
 }
 
 .back-to-top-button {
