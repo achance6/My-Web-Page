@@ -66,6 +66,10 @@ a:visited {
     filter: var(--svg-color);
 }
 
+.main-section, .header-blurb {
+    margin-left: 16px;
+}
+
 .centered {
     display: grid;
     place-items: center;
