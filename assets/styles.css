@@ -7,11 +7,14 @@
 .page-navigation > * {
     flex: 1;
     text-align: center;
-    color: white;
     border: 1px solid white;
     text-decoration: none;
     font-size: x-large;
     padding: 8px;
+}
+
+.page-navigation > .nav-link {
+    color: white;
 }
 
 .page-navigation > *:hover {
@@ -34,4 +37,33 @@
 .centered {
     display: grid;
     place-items: center;
+}
+
+:root {
+    --color-primary: #000;
+    --color-background: #fff;
+    --link-color: #0202e4;
+    --link-visited-color: #521b87;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #fff;
+        --color-background: #000;
+        --link-color: #87adf5;
+        --link-visited-color: #d192d2;
+    }
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+}
+
+a:link {
+    color: var(--link-color);
+}
+
+a:visited {
+    color: var(--link-visited-color);
 }
