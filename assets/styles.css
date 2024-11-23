@@ -4,6 +4,7 @@
     --color-dark-mode-indicator: #940d0d;
     --link-color: #0202e4;
     --link-visited-color: #521b87;
+    --svg-color: invert(0%) sepia(83%) saturate(1277%) hue-rotate(239deg) brightness(69%) contrast(101%);
 }
 
 :root.dark {
@@ -12,6 +13,7 @@
     --color-dark-mode-indicator: green;
     --link-color: #87adf5;
     --link-visited-color: #d192d2;
+    --svg-color: invert(93%) sepia(93%) saturate(0%) hue-rotate(246deg) brightness(106%) contrast(104%);
 }
 
 body {
@@ -61,6 +63,7 @@ a:visited {
 .back-to-top-button {
     width: 16px;
     height: 16px;
+    filter: var(--svg-color);
 }
 
 .centered {
