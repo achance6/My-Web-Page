@@ -36,7 +36,7 @@ a:visited {
 .page-navigation > * {
     flex: 1 1 auto;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid var(--color-background);
     text-decoration: none;
     font-size: x-large;
     padding: 8px;
