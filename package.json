@@ -4,11 +4,15 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {},
   "devDependencies": {
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "vite": "7.0.2",
+    "prettier": "3.6.2"
   },
   "private": true
 }
