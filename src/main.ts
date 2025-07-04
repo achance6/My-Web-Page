@@ -25,7 +25,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <section id="page-bio" class="header-blurb">
         <hr/>
         <p>
-            This page is served by AWS from within an S3 bucket.
+            This page is served by AWS from within an S3 bucket 
+            and is automatically updated whenever the source code changes via GitHub Actions.
+            Find the source code for this website on GitHub at https://github.com/achance6/My-Web-Page. 
             The domain is hosted by AWS, who also serves as the registrar.
             This page was created just to demo S3's static site hosting capabilities;
             however, I intend to turn it into a fully fledged personal webpage.
