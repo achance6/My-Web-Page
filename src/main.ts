@@ -1,5 +1,6 @@
 import "./assets/style.css"
 import backToTop from "./assets/back-to-top.svg"
+import awsBadge from "./assets/aws-certified-solutions-architect-associate.png"
 import resume from "./assets/resume.pdf"
 import {setupDarkMode} from "./setupDarkMode.ts";
 
@@ -149,11 +150,10 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
                 </ul>
             </section>
             <section>
-                <h3><a href="https://www.credly.com/badges/992a073a-3fcf-4ec9-be8e-4cce4b2513c7/public_url">AWS Solutions Architect Certification</a></h3>
-                <div data-iframe-height="270" data-iframe-width="350"
-                     data-share-badge-host="https://www.credly.com"
-                     data-share-badge-id="992a073a-3fcf-4ec9-be8e-4cce4b2513c7"></div>
-                <script async src="https://cdn.credly.com/assets/utilities/embed.js" type="text/javascript"></script>
+                <h3>AWS Solutions Architect Certification</h3>
+                <a href="https://www.credly.com/badges/992a073a-3fcf-4ec9-be8e-4cce4b2513c7/public_url">
+                    <img src=${awsBadge} alt="AWS Certified Solutions Architect Associate Badge"/>
+                </a>
             </section>
         </div>
     </section>
