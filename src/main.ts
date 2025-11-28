@@ -1,7 +1,7 @@
 import "./assets/style.css"
 import backToTop from "./assets/back-to-top.svg"
 import resume from "./assets/resume.pdf"
-import { setupDarkMode } from "./setupDarkMode.ts";
+import {setupDarkMode} from "./setupDarkMode.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <main>
@@ -149,11 +149,11 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
                 </ul>
             </section>
             <section>
-                <h3>AWS Solutions Architect Certification</h3>
+                <h3><a href="https://www.credly.com/badges/992a073a-3fcf-4ec9-be8e-4cce4b2513c7/public_url">AWS Solutions Architect Certification</a></h3>
                 <div data-iframe-height="270" data-iframe-width="350"
                      data-share-badge-host="https://www.credly.com"
                      data-share-badge-id="992a073a-3fcf-4ec9-be8e-4cce4b2513c7"></div>
-                <script async src="//cdn.credly.com/assets/utilities/embed.js" type="text/javascript"></script>
+                <script async src="https://cdn.credly.com/assets/utilities/embed.js" type="text/javascript"></script>
             </section>
         </div>
     </section>
