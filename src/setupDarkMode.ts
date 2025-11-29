@@ -36,7 +36,7 @@ function darkModeToggle() {
  */
 function setDarkModeIndicator() {
   const darkModeToggleTextElement = document.querySelector(
-    ".dark-mode-toggle__indicator",
+    ".dark-mode-toggle__indicator"
   );
   if (
     !darkModeToggleTextElement ||

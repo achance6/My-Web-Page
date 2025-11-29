@@ -1,3 +1,3 @@
-import {setupDarkMode} from "./setupDarkMode";
+import { setupDarkMode } from "./setupDarkMode";
 
-setupDarkMode()
+setupDarkMode();
