@@ -29,13 +29,13 @@ a:visited {
     color: var(--link-visited-color);
 }
 
-.page-navigation {
+.nav-bar {
     display: flex;
     background-color: #940d0d;
     align-items: stretch;
 }
 
-.page-navigation > * {
+.nav-bar__link {
     flex: 1 1 auto;
     text-align: center;
     border: 1px solid var(--color-background);
@@ -44,19 +44,19 @@ a:visited {
     padding: 8px;
 }
 
-.page-navigation > .nav-link {
+.nav-bar__link:link, .nav-bar__link:visited {
     color: white;
 }
 
-.page-navigation > *:hover {
+.nav-bar__link:hover {
     background-color: #c41212;
 }
 
-.skills-container {
+.skills {
     display: flex;
 }
 
-.skills-container > * {
+.skills__section {
     flex: 1 1 auto;
 }
 
@@ -66,23 +66,26 @@ a:visited {
     filter: var(--svg-color);
 }
 
-.main-section, .header-blurb {
-    margin-left: 16px;
+section {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.centered {
-    display: grid;
-    place-items: center;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dark-mode-toggle {
     display: flex;
 }
 
-.dark-mode-toggle > * {
-    padding: 4px;
+.dark-mode-toggle__button {
+    padding: 0.25rem;
 }
 
-.dark-mode-toggle > *.dark-mode-indicator {
+.dark-mode-toggle__indicator {
+    padding: 0.25rem;
     color: var(--color-dark-mode-indicator);
 }

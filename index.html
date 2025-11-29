@@ -9,24 +9,24 @@
 </head>
 <body>
 <main>
-    <nav class="page-navigation">
-        <a class="nav-link" href="#about-me-section-header">About Me</a>
-        <a class="nav-link" href="#work-section-header">Work</a>
-        <a class="nav-link" href="#education-section-header">Education</a>
-        <a class="nav-link" href="#skills-section-header">Skills</a>
-        <a class="nav-link" href="#projects-section-header">Projects</a>
-        <a class="nav-link" href="#resume-section-header">Resume</a>
-        <a class="nav-link" href="#contact-info-section-header">Contact</a>
+    <nav class="nav-bar">
+        <a class="nav-bar__link" href="#about-me-section-header">About Me</a>
+        <a class="nav-bar__link" href="#work-section-header">Work</a>
+        <a class="nav-bar__link" href="#education-section-header">Education</a>
+        <a class="nav-bar__link" href="#skills-section-header">Skills</a>
+        <a class="nav-bar__link" href="#projects-section-header">Projects</a>
+        <a class="nav-bar__link" href="#resume-section-header">Resume</a>
+        <a class="nav-bar__link" href="#contact-info-section-header">Contact</a>
     </nav>
-    <header class="centered" id="page-header">
+    <header class="header">
         <h1>Hello! My name is Ayden Chance.</h1>
         <h2>This is my personal webpage.</h2>
         <div class="dark-mode-toggle">
-            <button id="toggle-dark-mode-button">Toggle Dark Mode</button>
-            <div class="dark-mode-indicator" id="dark-mode-indicator">ON</div>
+            <button class="dark-mode-toggle__button">Toggle Dark Mode</button>
+            <div class="dark-mode-toggle__indicator">ON</div>
         </div>
     </header>
-    <section class="header-blurb" id="page-bio">
+    <section>
         <hr/>
         <p>
             This page is served by AWS from within an S3 bucket
@@ -42,7 +42,7 @@
             This page at present is plain HTML, CSS, and transpiled TypeScript
         </p>
     </section>
-    <section class="main-section" id="about-me">
+    <section class="main-section">
         <header>
             <h2 class="section-header" id="about-me-section-header">
                 About Me
@@ -118,8 +118,8 @@
             </h2>
         </header>
         <hr/>
-        <div class="skills-container">
-            <section>
+        <div class="skills">
+            <section class="skills__section">
                 <h3>Programming Languages</h3>
                 <ul>
                     <li>Java</li>
@@ -134,7 +134,7 @@
                     <li>Scheme</li>
                 </ul>
             </section>
-            <section>
+            <section class="skills__section">
                 <h3>Additional Skills / Familiarities</h3>
                 <ul>
                     <li>AWS (Certified Solutions Architect &#8212; Associate)</li>
@@ -152,7 +152,7 @@
                     <li>Jira</li>
                 </ul>
             </section>
-            <section>
+            <section class="skills__section">
                 <h3>AWS Solutions Architect Certification</h3>
                 <a href="https://www.credly.com/badges/992a073a-3fcf-4ec9-be8e-4cce4b2513c7/public_url">
                     <img alt="AWS Certified Solutions Architect Associate Badge"
