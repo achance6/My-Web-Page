@@ -82,13 +82,39 @@ section {
 
 .dark-mode-toggle {
   display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-background);
+  padding: 0.35rem 0.75rem;
+
 }
 
 .dark-mode-toggle__button {
-  padding: 0.25rem;
+  background: none;
+  border: 1px solid var(--color-primary);
+  border-radius: 9999px;
+  color: var(--color-primary);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.dark-mode-toggle__button:hover {
+  opacity: 0.8;
 }
 
 .dark-mode-toggle__indicator {
-  padding: 0.25rem;
+  width: 3ch;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background-color: var(--color-background);
   color: var(--color-dark-mode-indicator);
+  letter-spacing: 0.05em;
 }
