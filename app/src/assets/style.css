@@ -1,6 +1,6 @@
 :root.light {
   --color-primary: #000;
-  --color-background: #fff;
+  --color-background: #f3f2ef;
   --color-dark-mode-indicator: #940d0d;
   --link-color: #0202e4;
   --link-visited-color: #521b87;
@@ -10,7 +10,7 @@
 
 :root.dark {
   --color-primary: #fff;
-  --color-background: #000;
+  --color-background: #1b1f23;
   --color-dark-mode-indicator: green;
   --link-color: #87adf5;
   --link-visited-color: #d192d2;
